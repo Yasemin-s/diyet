@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "357517433015",
+    "project_id": "denemedeneme-beef0",
+    "storage_bucket": "denemedeneme-beef0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357517433015:android:7a5ad3f993d3f658ea5532",
+        "android_client_info": {
+          "package_name": "com.example.denemedeneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357517433015-l5r1g20q5tqeuliug03a0017c0fi4erd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.denemedeneme",
+            "certificate_hash": "45ca690f1f5ec3efa9faef137717d0d9001c4a01"
+          }
+        },
+        {
+          "client_id": "357517433015-470se2ag7c595nulfbej18uitt6cg8nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnvAKASmStoh0BIWhIQmif2Jqq4N4bTL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357517433015-1c7stue1ujolg9t3lvpchabe7lvd74sf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "357517433015-pv4q1fnfsiohv2vje0480k4034d1cqie.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.denemedeneme"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
