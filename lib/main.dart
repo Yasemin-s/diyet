@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:diyet/api/loadData.dart';
 import "package:diyet/firebase_options.dart";
-import 'package:diyet/pages/program.dart';
+import 'package:diyet/pages/communication.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
     
     home:Scaffold(
-     body: ProgramPage(),  //ProgramPage up
+     body: CommunicationPage(),  //ProgramPage up
     )
     );
     
