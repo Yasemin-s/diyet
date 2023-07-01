@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "denemedeneme" "\0"
+            VALUE "FileDescription", "diyet" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "denemedeneme" "\0"
+            VALUE "InternalName", "diyet" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "denemedeneme.exe" "\0"
-            VALUE "ProductName", "denemedeneme" "\0"
+            VALUE "OriginalFilename", "diyet.exe" "\0"
+            VALUE "ProductName", "diyet" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

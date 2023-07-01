@@ -1,0 +1,56 @@
+{
+  "KiloVerme": [
+      {"gun" : "Pazartesi", "sabah" : "Yulaf ezmesi, muz ve badem sütü","ogle" : "Izgara tavuk göğsü, yeşil salata ve kepekli ekmek", "araogun" : "Havuç sticksleri ve humus","aksam" : "Izgara somon, buğday pilavı ve buharda sebzeler"},
+      {"gun" : "Salı", "sabah" : "Yumurta beyazı omleti, tam buğday ekmeği ve domates dilimleri","ogle" : "Mercimek çorbası, ızgara tavuk salatası", "araogun" : "Yeşil elma ve badem ezmesi","aksam" : "Izgara hindi göğsü, bulgur pilavı ve sebzeli roka salatası"},
+      {"gun" : "Çarşamba", "sabah" : "Yoğurt, yaban mersini ve chia tohumu","ogle" : "Izgara sebzeler, tam buğday makarna", "araogun" : "Light yoğurt ve ceviz","aksam" : "Tavuk şiş, kahverengi pirinç ve fırında sebzeler"},
+      {"gun" : "Perşembe", "sabah" : "Smoothie (muz, ıspanak, badem sütü)","ogle" : "Ton balığı salatası, tam buğday ekmeği", "araogun" : "Ceviz ve kuru kayısı","aksam" : "Izgara biftek, fırında patates ve salata"},
+      {"gun" : "Cuma", "sabah" : "Tam buğday ekmeği, avokado ve haşlanmış yumurta","ogle" : " Nohutlu sebze yemeği, bulgur pilavı", "araogun" : "Smoothie (çilek, yoğurt, chia tohumu)","aksam" : "Izgara levrek, kinoa pilavı ve buğulanmış sebzeler"},
+      {"gun" : "Cumartesi", "sabah" : "Omlet (sebzelerle), tam buğday ekmeği","ogle" : " Izgara tavuklu yeşil salata", "araogun" : "Taze meyve tabağı","aksam" : "Fırında somon, bulgur pilavı ve buhar sebzeler"},
+      {"gun" : "Pazar", "sabah" : "Yulaf ezmesi, badem ve taze meyveler","ogle" : "Bezelye çorbası, ızgara tavuk göğsü, kahverengi pirinç", "araogun" : "Havuç sticksleri ve humus","aksam" : "Izgara biftek, fırında patates ve sebzeli yeşil salata"}
+  ],
+  "KiloAlma": [
+      {"gun" : "Pazartesi", "sabah" : "Yulaf ezmesi, fındık ve süt","ogle" : "Tavuklu sandviç (tam buğday ekmeği, tavuk göğsü, yeşillikler)", "araogun" : " Badem ve kuru üzüm","aksam" : " Izgara hindi göğsü, kahverengi pirinç ve sebzeler"},
+      {"gun" : "Salı", "sabah" : "Peynirli omlet, tam buğday ekmeği ve domates dilimleri","ogle" : "Nohutlu sebze yemeği, bulgur pilavı", "araogun" : "Muzlu smoothie (süt, muz, badem)","aksam" : "Izgara köfte, makarna ve salata"},
+      {"gun" : "Çarşamba", "sabah" : "Yoğurt, fındık ve taze meyveler","ogle" : "Tavuk göğsü salatası (marul, domates, salatalık, zeytinyağı)", "araogun" : "Ceviz ve kuru kayısı","aksam" : " Izgara somon, quinoa pilavı ve sebzeler"},
+      {"gun" : "Perşembe", "sabah" : "Smoothie (muz, çilek, süt)","ogle" : "Ton balığı sandviç (tam buğday ekmeği, ton balığı, yeşillikler)", "araogun" : "Badem ezmesi ve elma dilimleri","aksam" : " Izgara biftek, patates kızartması ve yeşil salata"},
+      {"gun" : "Cuma", "sabah" : "Tam buğday ekmeği, avokado ve haşlanmış yumurta","ogle" : "Izgara tavuk göğsü, bulgur pilavı ve sebzeler", "araogun" : "Peynir ve zeytin","aksam" : "Fırında hindi but, kahverengi pirinç ve sebzeler"},
+      {"gun" : "Cumartesi", "sabah" : "Bademli yoğurt, granola ve taze meyveler","ogle" : " Izgara et, patates püresi ve sebzeli roka salatası", "araogun" : "Smoothie (muz, süt, badem ezmesi)","aksam" : "Tavuklu makarna (tam buğday makarna, tavuk göğsü dilimleri, sebzeler)"},
+      {"gun" : "Pazar", "sabah" : "Yulaf ezmesi, fındık ve taze meyveler","ogle" : "Bezelye çorbası, ızgara tavuk göğsü, bulgur pilavı", "araogun" : "Badem ve kuru üzüm","aksam" : " Izgara köfte, kahverengi pirinç ve salata"}
+  ],
+  "KiloKoruma": [
+      {"gun" : "Pazartesi", "sabah" : "Yulaf ezmesi, fındık ve süt","ogle" : " Tavuk göğsü salatası (marul, domates, salatalık, zeytinyağı)", "araogun" : "Yeşil elma ve badem ezmesi","aksam" : "Izgara balık, bulgur pilavı ve sebzeler"},
+      {"gun" : "Salı", "sabah" : "Yumurta beyazı omleti, tam buğday ekmeği ve domates dilimleri","ogle" : "Nohutlu sebze yemeği, bulgur pilavı", "araogun" : "Smoothie (muz, badem sütü, chia tohumu)","aksam" : "Izgara tavuk göğsü, kahverengi pirinç ve buğulanmış sebzeler"},
+      {"gun" : "Çarşamba", "sabah" : "Yoğurt, fındık ve taze meyveler","ogle" : "Ton balığı salatası (marul, domates, salatalık, zeytinyağı)", "araogun" : "Ceviz ve kuru kayısı","aksam" : "Izgara hindi göğsü, quinoa pilavı ve sebzeler"},
+      {"gun" : "Perşembe", "sabah" : "Smoothie (muz, çilek, badem sütü)","ogle" : "Tavuklu sandviç (tam buğday ekmeği, tavuk göğsü dilimleri, yeşillikler)", "araogun" : "Badem ve kuru üzüm","aksam" : "Izgara biftek, fırında patates ve yeşil salata"},
+      {"gun" : "Cuma", "sabah" : "Tam buğday ekmeği, avokado ve haşlanmış yumurta","ogle" : " Izgara tavuk göğsü, bulgur pilavı ve sebzeler", "araogun" : "  Badem ve kuru üzüm","aksam" : "Izgara biftek, fırında patates ve yeşil salata"},
+      {"gun" : "Cumartesi", "sabah" : " Bademli yoğurt, granola ve taze meyveler","ogle" : "Izgara et, patates püresi ve sebzeli roka salatası", "araogun" : "Smoothie (muz, süt, badem ezmesi)","aksam" : "avuklu makarna (tam buğday makarna, tavuk göğsü dilimleri, sebzeler)"},
+      {"gun" : "Pazar", "sabah" : "Yulaf ezmesi, fındık ve taze meyveler","ogle" : "Bezelye çorbası, ızgara tavuk göğsü, bulgur pilavı", "araogun" : " Badem ve kuru üzüm","aksam" : "Izgara köfte, kahverengi pirinç ve salata"}
+  ],
+  "SaglikliBeslenme": [
+    {"gun" : "Pazartesi", "sabah" : "Yulaf ezmesi, fındık ve süt","ogle" : "Tavuk göğsü salatası (marul, domates, salatalık, zeytinyağı)", "araogun" : "Yeşil elma ve badem ezmesi","aksam" : " Izgara balık, bulgur pilavı ve buğulanmış sebzeler"},
+    {"gun" : "Salı", "sabah" : "Yumurta beyazı omleti, tam buğday ekmeği ve avokado dilimleri","ogle" : "Nohutlu sebze yemeği, kepekli ekmek", "araogun" : "Smoothie (muz, süt, badem)","aksam" : "Izgara tavuk göğsü, kahverengi pirinç ve sebzeler"},
+    {"gun" : "Çarşamba", "sabah" : " Yoğurt, fındık ve taze meyveler","ogle" : "Ton balığı salatası (marul, domates, salatalık, zeytinyağı)", "araogun" : " Ceviz ve kuru kayısı","aksam" : "Izgara hindi göğsü, quinoa pilavı ve sebzeler"},
+    {"gun" : "Perşembe", "sabah" : "Smoothie (muz, çilek, süt)tekrar","ogle" : "Izgara tavuk göğsü, bulgur pilavı ve sebzeler", "araogun" : "Badem ve kuru üzüm","aksam" : "Izgara tavuk göğsü, kahverengi pirinç ve buğulanmış sebzeler"},
+    {"gun" : "Cuma", "sabah" : "Tam buğday ekmeği, avokado ve haşlanmış yumurta","ogle" : "Izgara tavuk göğsü, bulgur pilavı ve sebzeler", "araogun" : "Peynir dilimleri ve zeytin","aksam" : "Fırında somon, kahverengi pirinç ve buğulanmış sebzeler"},
+    {"gun" : "Cumartesi", "sabah" : " Bademli yoğurt, granola ve taze meyveler","ogle" : "Izgara et, patates püresi ve sebzeli roka salatası", "araogun" : "Smoothie (muz, badem sütü, yaban mersini)","aksam" : "Tavuklu makarna (tam buğday makarna, tavuk göğsü dilimleri, sebzeler)"},
+    {"gun" : "Pazar", "sabah" : "Yulaf ezmesi, fındık ve taze meyveler","ogle" : "Tavuklu sandviç (tam buğday ekmeği, tavuk göğsü dilimleri, yeşillikler)", "araogun" : "Ceviz ve kuru kayısı","aksam" : "Izgara köfte, kahverengi pirinç ve salata"}
+],
+"UzunYasam": [
+    {"gun" : "Pazartesi", "sabah" : "Yeşil smoothie (ıspanak, elma, limon suyu, zencefil)","ogle" : "Mercimek çorbası, ızgara sebzeler ve tam buğday ekmeği", "araogun" : "Badem ve kuru kayısı","aksam" : "Fırında balık, kinoa pilavı ve buğulanmış sebzeler"},
+    {"gun" : "Salı", "sabah" : " Yumurta beyazı omleti, tam buğday ekmeği ve avokado dilimleri","ogle" : "Somon salatası (marul, salatalık, domates, zeytinyağı)", "araogun" : "Havuç dilimleri ve humus","aksam" : " Izgara tavuk göğsü, bulgur pilavı ve sebzeler"},
+    {"gun" : "Çarşamba", "sabah" : "Yoğurt, chia tohumu ve taze meyveler","ogle" : " Nohutlu sebze yemeği, kepekli ekmek", "araogun" : "Ceviz ve kuru üzüm","aksam" : " Izgara hindi göğsü, quinoa pilavı ve buğulanmış sebzeler"},
+    {"gun" : "Perşembe", "sabah" : " Smoothie (muz, çilek, badem sütü)","ogle" : "Izgara sebzeli tam buğday makarna", "araogun" : "Badem ve taze meyveler","aksam" : "Izgara biftek, fırında patates ve yeşil salata"},
+    {"gun" : "Cuma", "sabah" : "Tam buğday ekmeği, avokado ve haşlanmış yumurta","ogle" : "Tavuklu sebzeli noodle (tam buğday noodle, tavuk göğsü dilimleri, sebzeler)", "araogun" : "Havuç dilimleri ve humus","aksam" : "Fırında somon, kahverengi pirinç ve buğulanmış sebzeler"},
+    {"gun" : "Cumartesi", "sabah" : "Bademli yoğurt, granola ve taze meyveler","ogle" : "Izgara et, patates püresi ve sebzeli roka salatası", "araogun" : "Smoothie (muz, badem sütü, yaban mersini)","aksam" : "Tavuk göğsü salatası (marul, domates, salatalık, zeytinyağı)"},
+    {"gun" : "Pazar", "sabah" : "Yulaf ezmesi, fındık ve taze meyveler","ogle" : "Bezelye çorbası, ızgara tavuk göğsü, bulgur pilavı ve sebzeler", "araogun" : "Badem ve kuru üzüm","aksam" : "Tavuk göğsü salatası (marul, domates, salatalık, zeytinyağı)"}
+],
+"FazlaEnerji": [
+    {"gun" : "Pazartesi", "sabah" : "Yulaf ezmesi, fındık ve taze meyveler","ogle" : "Tavuk ızgara, tam buğday makarna ve buhar sebzeler", "araogun" : "P1meyve","aksam" : "Izgara biftek, tatlı patates püresi ve sebzeli salata"},
+    {"gun" : "Salı", "sabah" : "Yumurta beyazı omleti, tam buğday ekmeği ve avokado dilimleri","ogle" : "Nohutlu sebze yemeği, kepekli ekmek", "araogun" : "Badem ve kuru üzüm","aksam" : "Izgara tavuk göğsü, quinoa pilavı ve buğulanmış sebzeler"},
+    {"gun" : "Çarşamba", "sabah" : "Smoothie (muz, çilek, badem sütü)","ogle" : "Somon salatası (marul, salatalık, domates, zeytinyağı)", "araogun" : "Tam buğday krakerler ve humus","aksam" : " Izgara hindi göğsü, kahverengi pirinç ve buğulanmış sebzeler"},
+    {"gun" : "Perşembe", "sabah" : "Yoğurt, chia tohumu ve taze meyveler","ogle" : "Izgara sebzeli tam buğday makarna", "araogun" : " Havuç dilimleri ve badem ezmesi","aksam" : " Izgara somon, kahverengi pirinç ve yeşil salata"},
+    {"gun" : "Cuma", "sabah" : "Tam buğday ekmeği, avokado ve haşlanmış yumurta","ogle" : "Tavuklu sebzeli noodle (tam buğday noodle, tavuk göğsü dilimleri, sebzeler)", "araogun" : "Smoothie (muz, badem sütü, yaban mersini)","aksam" : "Izgara biftek, fırında patates ve buğulanmış sebzeler"},
+    {"gun" : "Cumartesi", "sabah" : "Bademli yoğurt, granola ve taze meyveler","ogle" : "Izgara et, patates püresi ve sebzeli roka salatası", "araogun" : "Yeşil elma dilimleri ve fıstık ezmesi","aksam" : " Tavuk göğsü salatası (marul, domates, salatalık, zeytinyağı)"},
+    {"gun" : "Pazar", "sabah" : "Yulaf ezmesi, fındık ve taze meyveler","ogle" : "Bezelye çorbası, ızgara tavuk göğsü, bulgur pilavı ve sebzeler", "araogun" : "Badem ve kuru üzüm","aksam" : "Fırında balık, kinoa pilavı ve buğulanmış sebzeler"}
+]
+}

@@ -12,8 +12,8 @@ class AppColors{
   static final Color generalTextColor = const Color(0x88000000);   //genel yazi
 
   //informaiton
-  static final Color containerColor1 = Color(0xFF9DA571); // Color(0xFF9DA571); 
-  static final Color containerColor2 = Color.fromARGB(255, 192, 197, 124); 
+  static final Color containerColor1 = Color(0xFF454C2C); // Color(0xFF9DA571); 
+  static final Color containerColor2 = Color(0xFF9BAA65); 
   
 
   

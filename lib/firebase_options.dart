@@ -44,39 +44,39 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCXFh9lCu7EeAz8DWleoWXnMdyDtK9f0Nk',
-    appId: '1:357517433015:web:815fefe46e5e12e2ea5532',
-    messagingSenderId: '357517433015',
-    projectId: 'denemedeneme-beef0',
-    authDomain: 'denemedeneme-beef0.firebaseapp.com',
-    storageBucket: 'denemedeneme-beef0.appspot.com',
+    apiKey: 'AIzaSyDO2JI8e2aAWuIW4JwKZhGRUH-oyIHwwTI',
+    appId: '1:21609641170:web:ee8b6765ca8bbfe5c2290b',
+    messagingSenderId: '21609641170',
+    projectId: 'diyet-93737',
+    authDomain: 'diyet-93737.firebaseapp.com',
+    storageBucket: 'diyet-93737.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAnvAKASmStoh0BIWhIQmif2Jqq4N4bTL0',
-    appId: '1:357517433015:android:7a5ad3f993d3f658ea5532',
-    messagingSenderId: '357517433015',
-    projectId: 'denemedeneme-beef0',
-    storageBucket: 'denemedeneme-beef0.appspot.com',
+    apiKey: 'AIzaSyCyuqrA_uocbk6XAMQEDPBMpP_aSXnLBzE',
+    appId: '1:21609641170:android:881b7e3b40c77d56c2290b',
+    messagingSenderId: '21609641170',
+    projectId: 'diyet-93737',
+    storageBucket: 'diyet-93737.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCwXgnkZxvpKAbV1kpHfrLLe-KcRJaIFgI',
-    appId: '1:357517433015:ios:ae97f65357bcc4f2ea5532',
-    messagingSenderId: '357517433015',
-    projectId: 'denemedeneme-beef0',
-    storageBucket: 'denemedeneme-beef0.appspot.com',
-    iosClientId: '357517433015-pv4q1fnfsiohv2vje0480k4034d1cqie.apps.googleusercontent.com',
-    iosBundleId: 'com.example.denemedeneme',
+    apiKey: 'AIzaSyAG44J2kvXbV_LA5tQqwP9XOmM8xeiBgDI',
+    appId: '1:21609641170:ios:2404139c2648e569c2290b',
+    messagingSenderId: '21609641170',
+    projectId: 'diyet-93737',
+    storageBucket: 'diyet-93737.appspot.com',
+    iosClientId: '21609641170-vf2qkiqnn687qqhliact4b878fa69m51.apps.googleusercontent.com',
+    iosBundleId: 'com.example.diyet',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCwXgnkZxvpKAbV1kpHfrLLe-KcRJaIFgI',
-    appId: '1:357517433015:ios:3a389ddd70d6275bea5532',
-    messagingSenderId: '357517433015',
-    projectId: 'denemedeneme-beef0',
-    storageBucket: 'denemedeneme-beef0.appspot.com',
-    iosClientId: '357517433015-tcq171v1h6esqtiatebe7ta78kj69ph5.apps.googleusercontent.com',
-    iosBundleId: 'com.example.denemedeneme.RunnerTests',
+    apiKey: 'AIzaSyAG44J2kvXbV_LA5tQqwP9XOmM8xeiBgDI',
+    appId: '1:21609641170:ios:15f26006e1c51399c2290b',
+    messagingSenderId: '21609641170',
+    projectId: 'diyet-93737',
+    storageBucket: 'diyet-93737.appspot.com',
+    iosClientId: '21609641170-k6rs7cpph43mfacnq4dkap7ghe2shmnm.apps.googleusercontent.com',
+    iosBundleId: 'com.example.diyet.RunnerTests',
   );
 }

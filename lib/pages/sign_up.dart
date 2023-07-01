@@ -1,28 +1,19 @@
-//import 'package:cloud_firestore/cloud_firestore.dart';  //kullanicinin verileri ekleme icin kullandigimiz paket
-import 'package:denemedeneme/components/colors.dart';
-import 'package:denemedeneme/components/my_textfield.dart';
-import 'package:denemedeneme/pages/sign_in.dart';
-import 'package:denemedeneme/service/auth.dart';
+import 'package:diyet/components/colors.dart';
+import 'package:diyet/components/my_textfield.dart';
+import 'package:diyet/pages/informations/gender.dart';
+import 'package:diyet/pages/sign_in.dart';
+import 'package:diyet/service/auth.dart';
 import 'package:flutter/material.dart';
-
-//kayit silme eklenebilir.
-//kayit ol vs gibi islemleri tek sayfada fonksiyon olrak yapmayi dene.
-
 class SignUp extends StatefulWidget {
-  SignUp({super.key,});
-
+   const SignUp({super.key,});
   @override
   State<SignUp> createState() => _SignUpState();
 }
-
 class _SignUpState extends State<SignUp> {
-
 //kayitolma bilgileri
-
 final emailController = TextEditingController();
 final  passwordController= TextEditingController();
 final confirmPasswordController = TextEditingController();
-
 
 //authservice i kullanmak icin nesne olusturdum
 AuthService _authService = AuthService();
@@ -48,17 +39,14 @@ AuthService _authService = AuthService();
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                
-                 Text(
+                Text(
                   "Kayıt ol",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 38,
-                      color: AppColors.headerColor),
+                      color: AppColors.buttonTextColor),
                 ),
-
                 const SizedBox(height: 20),
-
                 Card(
                   shape: RoundedRectangleBorder(
                     side:  BorderSide(
@@ -73,49 +61,37 @@ AuthService _authService = AuthService();
                     padding: const EdgeInsets.all(16.0),
                     child: Column(
                       children: [
-
-
                          MyTextField(
                           controller: emailController,
                           hintText: 'E-mail',
                           obscureText: false,
-                          prefixIcon: Icon(Icons.mail),
-                        
+                          prefixIcon: const Icon(Icons.supervised_user_circle),
                         ),
-
                         const SizedBox(height: 20),
-
                           MyTextField(
                             controller: passwordController,
                             hintText:  'Şifre',
-                            obscureText: true,
-                            //prefixIcon: Icon(Icons.key),
-                            prefixIcon: Icon(Icons.key),
+                            obscureText: false,
+                            prefixIcon:const Icon(Icons.mail),
                             ),
-                  
-
-
                         const SizedBox(height: 20),
-
                          MyTextField(
                             controller: confirmPasswordController,
                             hintText:  'Şifreyi tekrar giriniz',
                             obscureText: true,
-                            prefixIcon:Icon(Icons.key),
+                            prefixIcon:const Icon(Icons.key),
                             ),
-                  
-                       
                         const SizedBox(height: 20),
-
                        SizedBox(
                             height: 50,
                             width: 370,
                             child: GestureDetector(
+                             //  onTap: widget.onTap,
                               child: ElevatedButton(
-                                onPressed: () { //gerekli kontrolleri yapman gerek
+                              onPressed: () { //gerekli kontrolleri yapman gerek
                                  _authService.createUser(emailController.text, passwordController.text, confirmPasswordController.text)
                                  .then((value){
-                                  return Navigator.push(context, MaterialPageRoute(builder: (context) => SignIn()));
+                                  return Navigator.push(context, MaterialPageRoute(builder: (context) => GenderPage()));
                                  });
                                 },
                                 style: ButtonStyle(
@@ -126,11 +102,8 @@ AuthService _authService = AuthService();
                                 child: const Text('Kayıt Ol'),  //kayit oldan sonra giris ekranina atacak
                               ),
                             ),
-                           
                           ),
-
                           const SizedBox(height: 20),
-
                              Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
@@ -139,11 +112,11 @@ AuthService _authService = AuthService();
                               color: AppColors.buttonTextColor,
                             ),),
                             const SizedBox(width: 4,),
-                            GestureDetector(  
+                            GestureDetector(
                               onTap: () {
                                 Navigator.push(
                                   context, MaterialPageRoute(
-                                    builder: (context) => SignIn(),
+                                    builder: (context) => const SignIn(),
                                     ),);
                               },
                               child:  Text("Oturum aç",
@@ -154,8 +127,6 @@ AuthService _authService = AuthService();
                               ),
                             ),
                           ],),
-
-
                       ],
                     ),
                   ),
@@ -166,21 +137,6 @@ AuthService _authService = AuthService();
         ),
       ),
           ),
-
     ));
   }
 }
-
-
-//diger girisleri ayri sayfada da yapabilirsin
-/*
-cloud firestore baslatirken  in production mod da cikan kod
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-    match /{document=**} {
-      allow read, write: if false;
-    }
-  }
-}
-*/

@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>357517433015-pv4q1fnfsiohv2vje0480k4034d1cqie.apps.googleusercontent.com</string>
+	<string>21609641170-vf2qkiqnn687qqhliact4b878fa69m51.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.357517433015-pv4q1fnfsiohv2vje0480k4034d1cqie</string>
+	<string>com.googleusercontent.apps.21609641170-vf2qkiqnn687qqhliact4b878fa69m51</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCwXgnkZxvpKAbV1kpHfrLLe-KcRJaIFgI</string>
+	<string>AIzaSyAG44J2kvXbV_LA5tQqwP9XOmM8xeiBgDI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>357517433015</string>
+	<string>21609641170</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.denemedeneme</string>
+	<string>com.example.diyet</string>
 	<key>PROJECT_ID</key>
-	<string>denemedeneme-beef0</string>
+	<string>diyet-93737</string>
 	<key>STORAGE_BUCKET</key>
-	<string>denemedeneme-beef0.appspot.com</string>
+	<string>diyet-93737.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:357517433015:ios:ae97f65357bcc4f2ea5532</string>
+	<string>1:21609641170:ios:2404139c2648e569c2290b</string>
 </dict>
 </plist>

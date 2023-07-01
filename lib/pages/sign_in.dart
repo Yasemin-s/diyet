@@ -1,7 +1,7 @@
-import 'package:denemedeneme/components/colors.dart';
-import 'package:denemedeneme/components/my_textfield.dart';
-import 'package:denemedeneme/pages/sign_up.dart';
-import 'package:denemedeneme/service/auth.dart';
+import 'package:diyet/components/colors.dart';
+import 'package:diyet/components/my_textfield.dart';
+import 'package:diyet/pages/sign_up.dart';
+import 'package:diyet/service/auth.dart';
 import 'package:flutter/material.dart';
 
 class SignIn extends StatefulWidget {
@@ -16,7 +16,7 @@ class _SignInState extends State<SignIn> {
  //metin almak icin
  final emailController = TextEditingController();
  final passwordController = TextEditingController();
- final _textEditingController = TextEditingController();
+  final _textEditingController = TextEditingController();
  
   //autservice sinifini kullanmam icin o siniftan nesne tanimlamam gerek.
   AuthService _authService = AuthService();
@@ -49,7 +49,7 @@ class _SignInState extends State<SignIn> {
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 38,
-                      color: AppColors.headerColor),
+                      color: AppColors.generalTextColor),
                 ),
 
 
@@ -82,7 +82,7 @@ class _SignInState extends State<SignIn> {
                             controller: emailController,
                             hintText:  'E-mail',
                             obscureText: false,
-                            prefixIcon:Icon(Icons.mail),
+                            prefixIcon:const Icon(Icons.mail),
                             ),
                   
                         const SizedBox(height: 20),
@@ -92,9 +92,10 @@ class _SignInState extends State<SignIn> {
                             controller: passwordController,
                             hintText:  'Şifre',
                             obscureText: true,
-                            prefixIcon:Icon(Icons.key),
+                            prefixIcon:const Icon(Icons.key),
                             ),
                   
+
                         GestureDetector(
                           child: Text("Şifreni mi unuttun?"),
                           onTap: (){
@@ -109,9 +110,10 @@ class _SignInState extends State<SignIn> {
                         
                         SizedBox(
                             height: 50,
-                            width: 370,
+                            width: 370,   
                             child: GestureDetector(
-                              child: ElevatedButton(  //gerekli kontrolleri yapman gerek
+                             // onTap: widget.onTap,
+                              child: ElevatedButton(
                               onPressed: (){ //gerekli controller yapilmissa bilgi alma sayfasina yonlendirilecek
                                 _authService.signIn(context, emailController.text, passwordController.text);
                               },
@@ -122,7 +124,7 @@ class _SignInState extends State<SignIn> {
                               ),
                               child: const Text('Giriş Yap'),
                             ),
-                            ),
+                            ),                  
         
                           ),
 
@@ -134,7 +136,7 @@ class _SignInState extends State<SignIn> {
                          Text(
                           "ya da",
                           style: TextStyle(
-                              color: AppColors.headerColor,
+                              color: AppColors.generalTextColor,
                               fontWeight: FontWeight.bold,
                               fontSize: 28),
                         ),
@@ -178,12 +180,9 @@ class _SignInState extends State<SignIn> {
                           height: 50,
                           width: 370,
                           child: ElevatedButton(
-                            onPressed: () async {
+                            onPressed: () {
                               // Butona basıldığında yapılacak işlemler burada yer alır.
-                              //_authService.signInWithGoogle(context);
-                              //_authService.signInWithGoogle(context);
-                              //.then kullanımı , gelen değer ile sayfa geçişi yap diyoruz aslinda
-                              },
+                            },
                             style: ButtonStyle(
                               backgroundColor: MaterialStateProperty.all<Color>(
                                   const Color.fromRGBO(255, 255, 255, 0.7)),
@@ -255,6 +254,8 @@ class _SignInState extends State<SignIn> {
                                 ),
                               ),
                             ),
+
+                            
                           ],),
                       ],
                     ),
