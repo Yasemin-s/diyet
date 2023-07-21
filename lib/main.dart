@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:diyet/api/loadData.dart';
 import "package:diyet/firebase_options.dart";
-import 'package:diyet/pages/communication.dart';
+import 'package:diyet/pages/sign_up.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -17,7 +17,7 @@ Future<void> main() async{
 
 
 Future<LoadData> apiCall() async {
-  String urlString = "http://localhost:3000/db";
+  String urlString = "http://localhost:3000/db/";
   Uri uri = Uri.parse(urlString);
   final response = await http.get(uri);
   if (response.statusCode == 200) {
@@ -40,9 +40,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
     
     home:Scaffold(
-     body: CommunicationPage(),  //ProgramPage up
+     body: SignUp(),  //ProgramPage up CommunicationPage
     )
     );
     
   }
 }
+
+ //npm i -g json-server 
+//json-server --watch db.json

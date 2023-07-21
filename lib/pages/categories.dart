@@ -23,12 +23,12 @@ class _categoriesState extends State<categories> {
 
   int selectedTileIndex = -1;
   List<String> itemTexts = [
-    'Kilo Verme',
-    'Kilo Alma',
-    'Kilo Koruma',
-    'Sağlıklı Beslenme',
-    'Uzun Yaşam',
-    'Fazla Enerji',
+    'KiloVerme',
+    'KiloAlma',
+    'KiloKoruma',
+    'SaglikliBeslenme',
+    'UzunYasam',
+    'FazlaEnerji',
   ];
   @override
   Widget build(BuildContext context) {
@@ -102,12 +102,12 @@ class _categoriesState extends State<categories> {
                                 final FirebaseAuth auth = FirebaseAuth.instance;
                                 final User? user = auth.currentUser;
                                 final myUid = user?.uid;
-                                Fluttertoast.showToast(msg: "id si : ${myUid}",);
+                                Fluttertoast.showToast(msg: "id si : $myUid",);
 
                                 //seçimi firebase e ekleme
                                 final FirebaseFirestore firestore = FirebaseFirestore.instance;
                                 final String category= itemTexts[selectedTileIndex];
-                                final String uid = "${myUid}";
+                                final String uid = "$myUid";
                                 firestore.collection('Person')
                                 .doc(uid)
                                 .update({'category': category, });

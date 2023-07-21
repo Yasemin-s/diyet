@@ -1,5 +1,6 @@
 import 'package:diyet/components/colors.dart';
 import 'package:diyet/components/my_textfield.dart';
+import 'package:diyet/pages/profile.dart';
 import 'package:diyet/pages/sign_up.dart';
 import 'package:diyet/service/auth.dart';
 import 'package:flutter/material.dart';
@@ -115,7 +116,10 @@ class _SignInState extends State<SignIn> {
                              // onTap: widget.onTap,
                               child: ElevatedButton(
                               onPressed: (){ //gerekli controller yapilmissa bilgi alma sayfasina yonlendirilecek
-                                _authService.signIn(context, emailController.text, passwordController.text);
+                                _authService.signIn(context, emailController.text, passwordController.text)
+                                .then((value){
+                                  return Navigator.push(context, MaterialPageRoute(builder: (context) => ProfilePage()));
+                                });
                               },
                               style: ButtonStyle(
                                 backgroundColor:

@@ -51,27 +51,15 @@ final ageController = TextEditingController();
                                 final FirebaseAuth auth = FirebaseAuth.instance;
                                 final User? user = auth.currentUser;
                                 final myUid = user?.uid;
-                                Fluttertoast.showToast(msg: "id si : ${myUid}",);
+                                Fluttertoast.showToast(msg: "id si : $myUid",);
 
                                 //seçimi firebase e ekleme
                                 final FirebaseFirestore firestore = FirebaseFirestore.instance;
                                 final String age = ageController.text;
-                                final String uid = "${myUid}";
+                                final String uid = "$myUid";
                                 firestore.collection('Person')
                                 .doc(uid)
                                 .update({'age': age, });
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                                 Navigator.push(

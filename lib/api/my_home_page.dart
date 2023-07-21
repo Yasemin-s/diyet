@@ -37,11 +37,13 @@ class _MyHomePageState extends State<MyHomePage> {
       body: FutureBuilder<LoadData>(
         future: _loadDataFuture,
         builder: (context, snapshot) {
+          print("snap : $snapshot");
+          print("snap : $snapshot.data");
           if (snapshot.hasData) {
             return ListView.builder(
-              itemCount: snapshot.data?.KiloVerme.length ?? 0,
+              itemCount: snapshot.data?.UzunYasam.length ?? 0,
               itemBuilder: (context, index) {
-                var item = snapshot.data?.KiloVerme[index];
+                var item = snapshot.data?.UzunYasam[index];
                 return Container(
                   margin: const EdgeInsets.all(8),
                   padding: const EdgeInsets.all(8),
@@ -75,5 +77,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
 
